@@ -18,7 +18,10 @@
   "homepage": "https://github.com/Gcc10bin/projeto-modulo4#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "process": "^0.11.10"
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "sqlite3": "^5.0.10",
+    "url": "^0.11.0"
   },
   "type": "module"
 }
