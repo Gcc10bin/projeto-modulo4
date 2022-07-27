@@ -7,3 +7,7 @@
 ```
 npm i express
 ```
+### Process
+```
+npm i process
+```
