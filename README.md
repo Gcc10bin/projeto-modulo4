@@ -1,2 +1,9 @@
 # projeto-modulo4
-### branch isaac
+```
+
+```
+## Instalações necessárias para rodar o projeto
+### Express
+```
+npm i express
+```
