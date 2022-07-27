@@ -1,0 +1,24 @@
+{
+  "name": "projeto-modulo4",
+  "version": "0.0.1",
+  "description": "Projeto de encerramento de módulo MD4 - Resilia",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gcc10bin/projeto-modulo4.git"
+  },
+  "author": "Alice Araujo, Gabriel Christ, João SOuza, Mirna Ramos, Isaac Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gcc10bin/projeto-modulo4/issues"
+  },
+  "homepage": "https://github.com/Gcc10bin/projeto-modulo4#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "process": "^0.11.10"
+  },
+  "type": "module"
+}
