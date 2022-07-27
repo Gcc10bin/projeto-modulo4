@@ -23,6 +23,6 @@ app.get('/filmes', (req, res)=>{
 
 app.post('/filmes', (req, res) =>{
     filmes.push(req.body)
-    res.status(201).send('Livro cadastrado com sucesso')
+    res.status(201).send('Filme cadastrado com sucesso')
 })
 export default app
