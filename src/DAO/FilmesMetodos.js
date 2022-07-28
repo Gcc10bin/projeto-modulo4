@@ -54,6 +54,19 @@ class FilmesMetodos{
         })
     }
 
+    static listarTodosFilmes(){
+        const query = ` SELECT * FROM filmes`
+        return new Promise((resolve, reject)=> {
+            Database.all(query, (e, resultado)=>{
+                if(e){
+                    reject(e.message)
+                } else {
+                    resolve(resultado)
+                }
+            })
+        })
+    }
+
 
 }
 

@@ -11,6 +11,7 @@ class Filmes{
         app.get("/filmes", async (req,res)=>{
             const response = await FilmesMetodos.listarTodosFilmes()
             res.status(200).json(response)
+           
         })
 
         app.get("/filmes/:id", async (req, res)=>{

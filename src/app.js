@@ -1,5 +1,8 @@
 import express, { application } from "express";
+import * as dotenv from "dotenv";
 
+
+dotenv.config()
 const app = express();
 
 /* transformar o que está sendo enviado nas declarações em json */
