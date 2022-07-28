@@ -3,7 +3,7 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 
 sqlite3.verbose()
-const filePath = dirname(fileURLToPath(import.meta.url)) + "/database.db"
+const filePath = dirname(fileURLToPath(import.meta.url)) + "/BancoDados.db"
 const Database = new sqlite3.Database(filePath)
 
 export default Database
