@@ -1,6 +1,27 @@
 # projeto-modulo4
+```
 
-## Dependências 
+```
+## Instalações necessárias para rodar o projeto
+```
+### Express
 
-- express
-- ...
+#### npm i express
+
+### Process
+
+#### npm i process
+
+### sqlite3
+
+#### npm i sqlite3
+
+### path
+
+#### npm i path
+
+### url
+
+#### npm i url
+```
+
