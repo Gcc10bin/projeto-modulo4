@@ -4,7 +4,9 @@
   "description": "Projeto de encerramento de módulo MD4 - Resilia",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
     "sqlite3": "^5.0.10",
     "url": "^0.11.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }

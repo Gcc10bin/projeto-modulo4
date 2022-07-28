@@ -1,5 +1,3 @@
-import { rejects } from "assert";
-import { resolve } from "path";
 import Database from "../infra/Database.js";
 
 class FilmesMetodos{

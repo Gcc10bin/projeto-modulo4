@@ -3,12 +3,12 @@ import FilmesMetodos from "../DAO/FilmesMetodos.js";
 import Database from "../infra/Database.js";
 
 
-
 FilmesMetodos.createTable()
 
 class Filmes{
     static rotas(app){
         app.get("/filmes", async (req,res)=>{
+            console.log('Filmes')
             const response = await FilmesMetodos.listarTodosFilmes()
             res.status(200).json(response)
            
